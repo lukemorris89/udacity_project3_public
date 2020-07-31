@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/trailer_view_linear_layout"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/MovieDetailsTrailer"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/outline_play_circle_outline_white_36"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/movie_detail_trailer_text"
+        style="@style/MovieDetailsTrailer"
+        android:text="Play trailer"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="5"/>
+</LinearLayout>
